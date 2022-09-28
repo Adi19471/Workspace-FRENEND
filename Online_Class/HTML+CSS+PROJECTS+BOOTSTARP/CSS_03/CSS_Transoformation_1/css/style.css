@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-content {
+    border: 15px solid saddlebrown;
+    width: 300px;
+    height: 380px;
+    margin: auto;
+    margin-top: 2s0px;
+    padding: 10px;
+    box-shadow: 0px 10px 10px black;
+    overflow: hidden;
+}
+
+.main-content img {
+    width: inherit;
+    height: inherit;
+    transition: all 0.10s;
+}
+
+.main-content:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.left-content {
+    background-image: url("/img/cat.jpg");
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30%;
+    height: 75%;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: 0px 10px black;
+    transform: perspective(400px), rotateY(0deg);
+    transform-origin: left;
+}
+
+.left-content:hover {
+    left: 0;
+    top: 0;
+    right: 0px;
+    transform: perspective(100px), rotateY(90deg);
+    background-image: none;
+    border: none;
+    outline: none;
+    overflow: hidden;
+}

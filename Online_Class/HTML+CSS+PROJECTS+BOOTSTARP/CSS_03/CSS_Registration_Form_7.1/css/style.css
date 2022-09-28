@@ -1,0 +1,71 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.registration-form {
+    background-color: hotpink;
+    background: linear-gradient(25deg, green, black);
+    text-align: center;
+    margin: 50px 250px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 0px 10px black;
+    border-radius: 10px;
+    height: 300px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.registration-form h2 {
+    text-align: center;
+    background-color: aquamarine;
+    font-size: 30px;
+    box-shadow: 0px 10px black;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: cursive;
+    color: midnightblue;
+    font-weight: 900;
+}
+
+.registration-form .form-control {
+    padding: 5px;
+    text-align: center;
+    width: 150px;
+    height: 20px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.form-input {
+    text-align: justify;
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+}
+
+.form-input:focus {
+    background-color: lightgreen;
+    color: black;
+    border: none;
+}
+
+.btn-submit {
+    border-radius: 5%;
+    width: 100px;
+    font-size: 20px;
+    color: black;
+    background-color: greenyellow;
+    text-align: center;
+    margin: 0px 50px;
+}
+
+.registration-form img {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}

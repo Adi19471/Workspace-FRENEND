@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav + tag</title>
+
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            border-collapse: 100%;
+            scroll-behavior: smooth;
+        }
+        
+        header {
+            background-image: url('data:image/jpeg;base64,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');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-clip: border-box;
+            height: 50px;
+            margin-top: -20px;
+        }
+        
+        h2 {
+            text-align: center;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 25px;
+            text-transform: uppercase;
+        }
+        
+        nav {
+            background-color: black;
+            background-size: cover;
+            border-collapse: 100%;
+        }
+        
+        nav,
+        a {
+            margin: 0px 20px;
+            padding: 10px;
+            font-size: 15px;
+            color: white;
+            height: inherit;
+            text-decoration: none;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 18px;
+            box-shadow: 0px 0px 10px red;
+            border-radius: 2px;
+        }
+        
+        article {
+            background-color: navy;
+            color: white;
+            font-size: 20px;
+            font-display: 5px;
+            box-shadow: 0px 0px 10px black;
+            border: 1px solid black;
+            text-align: justify;
+        }
+        
+        h3 {
+            background: linear-gradient(20deg, navy, white);
+            border-collapse: 100%;
+        }
+        
+        footer {
+            background: linear-gradient(70deg, yellow, pink);
+            text-align: center;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>Web Devloper Adi </h2>
+    </header>
+
+    <nav>
+        <a href="">HTML</a>
+        <a href="">CSS</a>
+        <a href="">JAVA SCRIPT</a>
+        <a href="">TYPE SCRIPT</a>
+        <a href="">BOOTSTARP5</a>
+        <a href="">REACT JS</a>
+        <a href="">NODE JS</a>
+        <a href="">MANGO DB</a>
+    </nav>
+
+    <br>
+
+    <article>
+        <h3>
+            Web Developer
+        </h3>
+        <p>As a Front End Dev I'm resposible to create creative layouts, That layouts should useful to other Developers can they use very easily in their Project and this help they work very easie</p>
+    </article>
+
+
+    <article>
+        <h3>
+            UI/UX Designer
+        </h3>
+        <p>A UX designer ensures a product makes sense to the user by creating a path that logically flows from one step to the next. A UI designer ensures each page visually communicates that path.</p>
+    </article>
+    <article>
+
+
+
+        <h3>
+            Graphic Designer
+        </h3>
+        <p>Reports,Articles,Magazines and covers etc.., so many things can be designed and personally editing photos was really makes me more interest.</p>
+    </article>
+    <article>
+
+
+        <h3>
+            Web Designer
+        </h3>
+        <p>I'm Really enthusiastic to design a site before developing then the clients and users can get a overview what is the final product.</p>
+    </article>
+
+
+    <article>
+        <h3>
+            YouTube Motivater
+        </h3>
+        <p>A pure tech channel. In this channel you can learn about programming and also about life.sometimes I will guide the people in various aspects. I gave so many motivation classes to students.</p>
+    </article>
+
+
+
+    <footer>
+        <p>&#169 rights Riserved Web developer Adi 2022-2023</p>
+        <h5>Contact us 9398895448</h5>
+    </footer>
+
+</body>
+
+</html>

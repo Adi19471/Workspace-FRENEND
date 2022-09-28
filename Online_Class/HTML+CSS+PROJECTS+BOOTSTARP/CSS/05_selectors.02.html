@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors`</title>
+</head>
+<style>
+    label {
+        background-color: firebrick;
+        font-size: 80px;
+        transition: all 15s;
+    }
+    
+    input {
+        background-color: darkblue;
+        color: hotpink;
+        font-size: 80px;
+    }
+    
+    input[type="text"] {
+        transition: all 0.5s;
+    }
+    
+    input[type="text"]:focus {
+        background-color: rgba(15, 48, 48, 0.179);
+        color: rgb(233, 238, 233);
+    }
+    
+    input[type="password"] {
+        background-color: rosybrown;
+        color: white;
+    }
+    
+    input [type="submit"] {
+        background-color: saddlebrown;
+        color: white
+    }
+    
+    input[ type="submit"]:hover {
+        width: auto;
+        padding: auto;
+        margin: auto;
+        background-color: darkgreen;
+    }
+</style>
+
+<body>
+    <!-- Attribute Seectors -->
+    <!-- psedo selectors -->
+    <!-- mixed Selectors -->
+
+
+
+    <form action="">
+        <label for="">User  Name:-</label>
+        <input type="text"> <br>
+        <label for="">User password</label>
+        <input type="password">
+        <br>
+        <input type="submit">
+    </form>
+</body>
+
+</html>

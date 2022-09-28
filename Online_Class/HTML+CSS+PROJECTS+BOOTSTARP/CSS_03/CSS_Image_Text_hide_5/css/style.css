@@ -1,0 +1,48 @@
+body {
+    background-color: teal;
+}
+
+.container {
+    width: 500px;
+    height: 300px;
+    margin: 100px auto;
+    border: 5px solid blueviolet;
+    position: relative;
+    box-shadow: 0px 10px black;
+    border-radius: 15px;
+    transform: translate(50deg);
+}
+
+.container img {
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+    transform: translate(50deg);
+    transition: all 0.6s;
+}
+
+.container:hover img {
+    background-color: yellowgreen;
+    width: 20px;
+    transform: translate(-0deg);
+    transition: all 0.6s;
+}
+
+.container .content {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(25deg, navy, hotpink);
+    border-radius: 15px;
+    color: white;
+    border: 5px solid rgb(10, 5, 15);
+    transform: translate(50deg);
+    transition: all 0.6s;
+}
+
+.container:hover .content {
+    transform: translate(45deg);
+    transform-origin: right;
+    width: 90px;
+    height: 150px;
+    overflow: hidden;
+}

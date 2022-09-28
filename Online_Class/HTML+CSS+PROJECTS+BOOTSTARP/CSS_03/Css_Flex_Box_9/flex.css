@@ -1,0 +1,37 @@
+body {
+    background-color: mediumseagreen;
+    font-family: Arial;
+    font-family: Cambria;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    margin: 0px;
+    background-color: #8fbb25;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid darkblue;
+    justify-content: flex-start;
+    height: 100px;
+    background-color: black;
+}
+
+.flex div {
+    flex: 2;
+    background-color: red;
+    height: 50px;
+    margin-left: 2px solid yellow;
+}
+
+div {
+    color: #c9fc12;
+    border-left: 2px solid pink;
+    height: 20%;
+    left: 0%;
+    position: relative;
+}

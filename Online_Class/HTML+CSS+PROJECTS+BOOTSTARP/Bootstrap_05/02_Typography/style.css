@@ -1,0 +1,19 @@
+body {
+    background: linear-gradient(50deg, dark, red);
+}
+
+.navbar {
+    /* height: 150px; */
+    background-color: black;
+}
+
+li {
+    list-style: none;
+}
+
+.text-center {
+    margin-left: 220px;
+    height: 200px;
+    border-left: 2px solid black;
+    font-weight: 900;
+}

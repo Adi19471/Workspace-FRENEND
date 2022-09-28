@@ -1,0 +1,16 @@
+.btn-primary {
+    background: linear-gradient(45deg, yellowgreen, black);
+    border-radius: 50%;
+}
+
+navbar {
+    background-color: navy;
+    color: white;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 50px black;
+}

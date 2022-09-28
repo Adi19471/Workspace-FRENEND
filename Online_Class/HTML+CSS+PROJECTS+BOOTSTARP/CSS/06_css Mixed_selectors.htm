@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selectors</title>
+</head>
+<style>
+    ol {
+        background-color: rgb(194, 32, 32);
+        color: white;
+    }
+    
+    li {
+        background-color: rgb(45, 9, 9);
+        color: rgb(114, 114, 172);
+        font-size: 35px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0);
+    }
+    
+    ol li:first-child(5) {
+        background-color: red;
+        color: yellow;
+    }
+    
+    ol li:nth-child(4) {
+        background-color: lawngreen;
+        color: red;
+    }
+    
+    ol li:nth-child(even) {
+        background-color: rgb(5, 25, 25);
+        color: rgb(155, 219, 197);
+    }
+    
+    ol li:nth-child(odd) {
+        background-color: rgb(170, 0, 255);
+        color: rgb(17, 30, 25);
+    }
+</style>
+
+<body>
+
+    <h1>Mixed Selectors</h1>
+
+
+
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVA SCRIPTY</li>
+        <li>REACT JS</li>
+        <li>AJAX</li>
+        <li>JQUERY</li>
+    </ol>
+</body>
+
+</html>

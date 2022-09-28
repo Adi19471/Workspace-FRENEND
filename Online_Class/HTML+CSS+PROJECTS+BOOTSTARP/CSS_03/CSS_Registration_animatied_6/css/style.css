@@ -1,0 +1,50 @@
+.registration-div {
+    background: linear-gradient(20deg, hotpink, red);
+    margin: 50px auto;
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    box-shadow: 0px 10px black;
+    border-radius: 5%;
+}
+
+.registration-div h2 {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form-control label {
+    margin: 5px 0px;
+    display: block;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.form-control input {
+    height: 20px;
+    margin: 2px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.form-controll {
+    margin: 2px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.submit-button {
+    width: 300px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px 0px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+input:focus {
+    color: black;
+    background-color: honeydew;
+}

@@ -1,0 +1,119 @@
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+    
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        background: linear-gradient(20deg, cyan, black);
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 500;
+        height: 40px;
+    }
+    
+    .navbar.left {
+        display: flex;
+        flex-direction: row;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        color: white;
+    }
+    
+    img {
+        padding: 10px 10px;
+        text-align: center;
+        width: 50px;
+        height: 20px;
+        border-radius: 10%;
+        box-shadow: 0px 0px 10px black;
+    }
+    
+    h4 {
+        margin: -35px 150px;
+        text-align: center;
+        font-weight: 900;
+        text-align: center;
+    }
+    
+    .text-primary {
+        color: cyan;
+        font-size: 10px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .navbar .right li {
+        list-style-type: none;
+    }
+    
+    .navbar .right {
+        display: flex;
+    }
+    
+    .navbar .right li {
+        text-decoration: none;
+        padding-top: 8px;
+        font-weight: 900;
+        font-size: 2px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .navbar .right li:hover a {
+        color: white;
+        background-color: mediumblue;
+    }
+    
+    .navbar .right li a {
+        text-decoration: none;
+        color: white;
+        margin: 0px 50px 0px 50px;
+        font-weight: 500;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    /* landing area */
+    
+    .container {
+        background-image: url("./adi2.jpg");
+        background-size: cover;
+        background-attachment: scroll;
+        height: 100vh;
+        text-align: center;
+    }
+    
+    #container-wrap {
+        color: rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif
+    }
+    
+    .text-primary {
+        text-align: center;
+        width: 100px;
+        margin: 5px auto;
+        background-color: darkblue;
+        color: whitesmoke;
+        font-size: 20px;
+        border-radius: 50px;
+    }
+    /* media landscape */
+    
+    @media(max-width:768px) {
+        .navbar {
+            flex-direction: column;
+        }
+        .navbar .right {
+            margin-top: 35px;
+            background: linear-gradient(50deg, cyan, black);
+        }
+    }
